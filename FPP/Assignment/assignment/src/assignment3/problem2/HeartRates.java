@@ -1,7 +1,6 @@
-package assignment2.problem2;
+package assignment3.problem2;
 
 import java.time.LocalDate;
-import java.time.Period;
 
 public class HeartRates {
     String firstName;

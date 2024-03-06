@@ -1,4 +1,4 @@
-package assignment2.problem1;
+package assignment3.problem1;
 public class Customer {
     public class Address {
         String street;

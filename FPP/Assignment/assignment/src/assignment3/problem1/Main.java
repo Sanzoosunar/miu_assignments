@@ -1,4 +1,4 @@
-package assignment2.problem1;
+package assignment3.problem1;
 public class Main {
     public static void main(String[] args) {
         Customer[] customerArray=new Customer[3];

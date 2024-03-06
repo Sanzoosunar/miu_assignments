@@ -1,6 +1,4 @@
-package assignment3;
-
-import java.lang.reflect.Array;
+package assignment4;
 
 public class Question3 {
     public static void main(String[] args) {

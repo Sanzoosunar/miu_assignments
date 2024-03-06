@@ -1,6 +1,4 @@
-package assignment1;
-
-import java.lang.reflect.Array;
+package assignment2;
 
 public class Prog5 {
     public static void main(String[] args) {
