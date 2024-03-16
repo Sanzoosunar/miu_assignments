@@ -1,7 +1,6 @@
-package prob1;
+package assignment11.prob1;
 import java.util.*;
 public class Test {
-
 	public static void main(String[] args) {
 		@SuppressWarnings("serial")
 		List<Student> list = new ArrayList<Student>() {
@@ -25,11 +24,9 @@ public class Test {
 		results[1] = map.containsKey(richard);
 		System.out.println((Arrays.equals(expectedOutput, results) ? "pass" : "fail"));
 		
-		   double ave = Admin.computeAverageGPA(map2); 
+		double ave = Admin.computeAverageGPA(map);
 		// Expected output : Average GPA : 3.1833333333333336
-        	   System.out.println("Average GPA : " +ave);
-
-
+	    System.out.println("Average GPA : " +ave);
 	}
 
 }

@@ -1,4 +1,6 @@
-package prob1;
+package assignment11.prob1;
+
+import java.util.Objects;
 
 public class Student {
 	private String firstName;
@@ -35,5 +37,4 @@ public class Student {
 		Student s = (Student)ob;
 		return s.firstName.equals(firstName) && s.lastName.equals(lastName);
 	}
-	
 }

@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d4bf15-acff-4d53-8fd7-6482d93ae9e1" name="Changes" comment="" />
+    <list default="true" id="d1d4bf15-acff-4d53-8fd7-6482d93ae9e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Standing.java" beforeDir="false" afterPath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Standing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2dbf7XR7zkbT5npnhXruXT4nPe4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,12 +40,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "fpp__assignment",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/MIU_ASSIGNMENTS/miu_assignments/FPP/Assignment/assignment"
+    "last_opened_file_path": "D:/MIU_ASSIGNMENTS/miu_assignments"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment11.prob1.Test" />
+      <module name="miu_assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment11.prob1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,5 +85,26 @@
       <updated>1710281531921</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Test.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Admin.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FPP/Assignment/assignment/src/assignment11/prob1/Admin.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

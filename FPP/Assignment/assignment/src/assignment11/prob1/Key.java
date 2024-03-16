@@ -1,4 +1,6 @@
-package prob1;
+package assignment11.prob1;
+
+import java.util.Objects;
 
 public class Key {
 	private String firstName;
@@ -12,5 +14,17 @@ public class Key {
 	public Key(String f, String l) {
 		this.firstName = f;
 		this.lastName = l;
+	}
+
+	@Override
+	public boolean equals(Object o){
+		if(this==o) return true;
+		if(o==null|| this.getClass()!=o.getClass()) return false;
+		Key key=(Key) o;
+		return this.firstName.equals(key.firstName) && this.lastName.equals(key.lastName);
+	}
+	@Override
+	public int hashCode(){
+		return Objects.hash(firstName,lastName);
 	}
 }
