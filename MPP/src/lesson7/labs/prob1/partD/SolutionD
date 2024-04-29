@@ -1,0 +1,2 @@
+listsAreEqual method returns false because equals method is checking name,salary and
+visited attributes instead of name and salary.

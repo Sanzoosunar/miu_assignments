@@ -1,0 +1,5 @@
+Result is false because equal method is not overriden properly,
+as it accepts Employee object instead of Object type.This is method overloading
+not overriding. contains method calls equals method of Object class which check memory
+address. So, to get expected result we need to change equal method signature of
+Employee class i.e. we need to change Employee type parameter to Object type

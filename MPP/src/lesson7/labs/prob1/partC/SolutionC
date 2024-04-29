@@ -1,0 +1,2 @@
+Result is false because Employee class must provide custom hashCode function
+because it is used as key in hashMap and equals method is different for employee class.
