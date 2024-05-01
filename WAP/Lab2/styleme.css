@@ -1,0 +1,33 @@
+body{
+    background-color: #f2c8b3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -13px;
+}
+
+h1{
+    color: #7534bf;
+}
+h2{
+    color: #333c9c;
+}
+p{
+    color: #662569;
+    font-weight: bolder;
+}
+#book-list{
+    list-style: decimal;
+}
+ul{
+    color: #6e3440;
+    font-weight: bolder;
+    font-size: 15px;
+}
+img{
+    height: 150px;
+    width: 180px;
+    margin-right: 20px;
+}
+hr{
+    font-weight: bold;
+    color: black;
+}
