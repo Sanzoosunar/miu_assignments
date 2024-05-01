@@ -10,6 +10,10 @@ h1{
 h2{
     color: #333c9c;
 }
+#short-intro span{
+    color: red;
+    font-weight: bolder;
+}
 p{
     color: #662569;
     font-weight: bolder;
@@ -30,4 +34,8 @@ img{
 hr{
     font-weight: bold;
     color: black;
+}
+a img{
+    height: 88px;
+    width: 141px
 }
