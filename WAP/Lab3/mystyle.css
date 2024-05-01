@@ -80,3 +80,9 @@ table tfoot{
     font-size: 19px;
     text-decoration: underline;
 }
+footer img{
+    height: 50px;
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: -34px;
+}
