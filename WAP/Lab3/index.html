@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="main-div">
+        <header>
+            <div>
+                <img src="logo.jpg">
+            </div>
+            <div id="header-text">Welcome, Sanjukta!</div>
+            <div id="logout"><a>Logout</a></div>
+        </header>
+        <section>
+            <div>
+                <p class="heading-label">Product List</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Node.js</td>
+                            <td>9.99</td>
+                            <td>8</td>
+                            <td>
+                                <img src="cart.png" alt="Cart img">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>React</td>
+                            <td>19.99</td>
+                            <td>5</td>
+                            <td>
+                                <img src="cart.png" alt="Cart img">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Angular</td>
+                            <td>29.99</td>
+                            <td>13</td>
+                            <td>
+                                <img src="cart.png" alt="Cart img">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <p class="heading-label">Your Shopping Cart</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Node.js</td>
+                            <td>9.99</td>
+                            <td>9.99</td>
+                            <td>
+                                1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Angular</td>
+                            <td>29.99</td>
+                            <td>290.99</td>
+                            <td>
+                                10
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">
+                                Total : 300.98
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div id="place-order">
+                    Place Order
+                </div>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
