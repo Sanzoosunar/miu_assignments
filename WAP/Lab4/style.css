@@ -1,7 +1,3 @@
-body{
-    /* background: wheat; */
-}
-
 .main{
     width: 70%;
     border: 2px solid skyblue;
@@ -10,7 +6,6 @@ body{
     height: 470px;
     margin-top: 40px;
     background-color: white;
-    /* padding: 5px; */
 }
 .header{
     background-color: #69cfb9;
