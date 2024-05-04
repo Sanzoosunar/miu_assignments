@@ -4,15 +4,15 @@ function sum(arr){
     const result=arr.filter(a=>a>20);
     return result.reduce((accum,num)=>accum+num,0)
 }
-//console.log('*********Problem 1 solution ***************');
-// console.log('sum of array : ',sum([22,20,30,1,3,5]));
+console.log('*********Problem 1 solution ***************');
+console.log('sum of array : ',sum([22,20,30,1,3,5]));
 
 //Problem2 Solution
 const getNewArray = function(strArray){
     return  strArray.filter(a=>a.length>=5 && a.includes('a'));
 }
-//console.log('*********Problem 2 solution ***************')
-// console.log("string length greater than or equal to 5 : " , getNewArray(["Ball","Apple","Orange","Ant","Banana"]));
+console.log('*********Problem 2 solution ***************')
+console.log("string length greater than or equal to 5 : " , getNewArray(["Ball","Apple","Orange","Ant","Banana"]));
 
 
 //Problem 3 solution
