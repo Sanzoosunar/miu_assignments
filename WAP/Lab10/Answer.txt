@@ -1,0 +1,47 @@
+1. There are 7 callback queues in Node js, they are:
+	a. timer : setTimeOut, setInterval callback are enqueue in this queue
+	b. I/O  : readFile enqueue in this queue
+	c. Polling : readFile first loads to Polling from LIBUV and then push to I/O
+	d. Immediate : setImmediate callbacks enqueue
+	e. Close : close callback
+	f. Next Tick : process.nextTick are added in nextTick queue
+	g. Promise : Promise callback added here
+	
+	
+	
+	
+2. Console Output
+	start
+	end
+	nextTick 1
+	nextTick 2
+	Promise...1
+	Promise...2
+	timeout 1
+	timeout 2
+	nextTick 3
+	timeout 3
+	
+	
+3. Console Output
+	timeout
+	readFile....
+	Immediate
+	
+	Note: as per event loop rule, timer callback executes first follwed by I/O and Immediate callback. Before adding to specific queue V8 adds to 
+	LIBUV, libuv then adds to their own queue. But sometimes LibUV takes time to process and add other queue first in their queue instead of timer
+	.As they are asynchronous process they execute independently. So in this scenario order can be changed.
+	
+	
+4. The output of this code is undefined because in node js, this keyword refers to empty object({ }) in global scope and refers to global object 
+	inside function. var variables added to global scope not global object and they are different things. Therefore, when we try to callback
+	this.message, it actually search in global object where it do not find any message properties. Therefore,it prints undefined value
+
+5. It prints Josh Edward
+
+6. It throws error because app.js file calling pattern2.js file which do not exists in current folder	
+
+7. It throws error because app.js file calling pattern2.js file which do not exists in current folder	
+
+8. Output is: { firstname: 'John', lastname: 'Smith' }
+
