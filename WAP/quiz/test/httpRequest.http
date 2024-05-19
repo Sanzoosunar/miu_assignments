@@ -1,0 +1,25 @@
+# POST http://localhost:2222/products
+# Content-Type: application/json
+
+# {
+#     "title":"HP1",
+#     "price":"800",
+#     "description":"expensive one"
+# }
+
+# GET http://localhost:2222/books
+
+GET http://localhost:2222/books/1
+
+
+PUT  http://localhost:2222/products/1/
+Content-Type: application/json
+
+{
+    "id":1,
+    "title":"DELL ADMIN",
+    "price":750,
+    "description":"DELL pro version33"
+}
+
+# DELETE http://localhost:2222/products/2
