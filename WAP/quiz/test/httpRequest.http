@@ -7,7 +7,7 @@
 #     "description":"expensive one"
 # }
 
-# GET http://localhost:2222/books
+GET http://localhost:2222/books
 
 GET http://localhost:2222/books/1
 

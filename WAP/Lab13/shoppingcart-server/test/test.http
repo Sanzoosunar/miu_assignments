@@ -1,0 +1,43 @@
+# POST http://localhost:2222/products
+# Content-Type: application/json
+
+# {
+#     "title":"HP1",
+#     "price":"800",
+#     "description":"expensive one"
+# }
+
+GET http://localhost:2222/books
+
+
+###
+
+GET http://localhost:2222/books/1
+
+
+###
+POST  http://localhost:2222/books/
+Content-Type: application/json
+
+{
+    "title":"DELL ADMIN",
+    "ISBN":"WWW-222",
+    "publishedDate":"2023/10/12",
+    "author":"DELL pro version33"
+}
+
+###
+
+PUT  http://localhost:2222/books/1
+Content-Type: application/json
+
+{
+    "id":1,
+   "title":"Java 8",
+    "ISBN":"WWW-222",
+    "publishedDate":"2023/10/11",
+    "author":"Aalex xu"
+}
+
+###
+DELETE http://localhost:2222/books/2

@@ -1,6 +1,5 @@
 
 const books=[];
-let id=1;
 module.exports= class Book{
     constructor(id,title,ISBN,publishedDate,author){
         this.id=id;
@@ -16,11 +15,27 @@ module.exports= class Book{
     static getBookById(id){
         return books.find(a=>a.id===id);
     }
-    addBook(){
-        this.id=id++;
+    add(){
+        this.id=books.length+1;
         books.push(this);
+        return this;
     }
-    updateBook(id){
+    update(id){
+        const index=books.findIndex(a=>a.id===id);
+        if(index==-1){
+            throw new Error("book not found")
+        }
         this.id=id;
+        books[index]=this;
+        return this;
+    }
+    static delete(id){
+         const index=books.findIndex(a=>a.id===id); 
+         if(index==-1){
+            throw new Error("book not found")
+        }  
+        const tmp=books[index];
+        books.splice(index,1);
+        return tmp;
     }
 }
